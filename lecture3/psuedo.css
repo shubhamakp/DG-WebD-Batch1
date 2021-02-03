@@ -1,0 +1,37 @@
+/* p::first-line {
+    color: rgb(6, 11, 90);
+    font-size: 20px;
+    font-weight:900;
+} */
+
+p::first-letter,li::first-letter{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* p::selection{
+    color: rgb(165, 230, 165);
+    background-color: rgb(243, 75, 75);
+}
+
+li::selection{
+    color: white;
+    background-color: greenyellow;
+} */
+
+/* to select all  */
+::selection{
+    background-color: green;
+    color: white;
+}
+
+p::before{
+    content: "hello " ;
+    color: red;
+}
+
+p::after{
+    content: " Good bye then";
+    color: green;
+}
