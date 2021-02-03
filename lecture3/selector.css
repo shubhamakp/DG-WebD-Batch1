@@ -1,9 +1,11 @@
 #para1{
+    /* custom coloring */
     color:red;
 }
 
 #para2{
-    color: springgreen;
+    /* hex coloring */
+    color:#4d31db;
 }
 
 .head1{
@@ -15,5 +17,9 @@
 }
 
 #heading{
-    background-color: gray;
+    /* rgb coloring */
+    /* background-color: rgb(11, 31, 2); */
+
+    /* rgba coloring */
+    background-color: rgba(11, 31, 2,.8);
 }
