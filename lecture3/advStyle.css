@@ -1,0 +1,21 @@
+*{
+    color:blue;
+}
+
+div + p {
+    background-color: red;
+    color: white;
+}
+
+/* div > p {
+    background-color: blueviolet;
+    color: wheat;
+} */
+
+div p a {
+    background-color: yellow;
+}
+
+h1 , li , span {
+    color: rgb(228, 10, 46);
+}
