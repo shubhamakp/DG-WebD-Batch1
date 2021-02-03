@@ -35,3 +35,21 @@ p::after{
     content: " Good bye then";
     color: green;
 }
+
+a:link{
+    color: rgb(53, 83, 3);
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: brown;
+    background-color: chartreuse;
+}
+
+a:active{
+    color: burlywood;
+    background-color: cornflowerblue;
+}
