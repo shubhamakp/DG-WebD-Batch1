@@ -1,0 +1,28 @@
+body{
+    border: 20px solid rgb(153, 148, 148);
+    padding: 20px;
+}
+
+.post{
+    margin-bottom: 30px;
+}
+
+.date{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(81, 182, 223);
+}
+
+.qoute{
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+h2{
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+}
