@@ -1,0 +1,21 @@
+.trans{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: all 1s;
+}
+
+.trans:hover{
+    transform: translate(20px,30px);
+    /* transform: scale(3); */
+    /* transform: rotate(360deg); */
+}
+
+.div{
+    height: 50px;
+    width: 50px;
+    background-color: salmon;
+    transform: skew(40deg);
+}
