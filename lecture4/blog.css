@@ -20,9 +20,9 @@ body{
 
 h2{
     color: #2c3e50;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p{
     font-family: 'Lobster', cursive;
+    text-decoration: underline;
 }
