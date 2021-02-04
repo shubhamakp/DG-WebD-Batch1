@@ -1,8 +1,18 @@
 h1{
     margin-top: 100px;
     margin-left: 100px;
+    text-decoration-line: overline;
+    text-decoration-style: solid;
+    text-decoration-color: purple;
 
+    /* shorthand property */
+    /* text-decoration: underline dashed red; */
 }
+
+a{
+    text-decoration: none;
+}
+
 
 div{
     /* shorthand property */
