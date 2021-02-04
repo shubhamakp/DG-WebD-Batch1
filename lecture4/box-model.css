@@ -15,7 +15,7 @@ span{
     border-color: blue; */
     padding: 20px;
 
-    /* shorthand */
+    /* shorthand property*/
     border: 5px dashed red;
     
 }
