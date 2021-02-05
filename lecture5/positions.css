@@ -28,3 +28,14 @@
     top: 0;
     background-color: rgb(241, 140, 140);
 }
+
+h2{
+    display: none;
+}
+
+.div{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(241, 140, 140);
+}
