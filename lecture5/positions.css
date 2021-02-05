@@ -4,6 +4,7 @@
     left: 50px;
     height: 200px;
     width: 400px;
+    padding-bottom: 800px;
 }
 
 .absolute{
@@ -12,4 +13,18 @@
     top: 80px;
     right: 0;
     height:50px
+}
+.fixed{
+    position: fixed;
+    border: 3px solid red;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky{
+    position: sticky;
+    border: 2px solid purple;
+    padding: 5px;
+    top: 0;
+    background-color: rgb(241, 140, 140);
 }
