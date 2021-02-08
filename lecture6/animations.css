@@ -1,0 +1,49 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    /* animation-direction: alternate-reverse; */
+    animation-fill-mode: forwards;
+
+    /* animation shorthand */
+    /* animation: example 4s linear 0s 2 alternate; */
+}
+
+@keyframes example{
+    /* from{
+        background-color: red;
+    }
+    to{
+        background-color: blue;
+    } */
+
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: yellow;
+        top:0px;
+        left:300px;
+    }
+    50%{
+        background-color: purple;
+        top: 300px;
+        left:300px;       
+    }
+    75%{
+        background-color: tomato;
+        top: 300px;
+        left:0px;
+    }
+    100%{
+        background-color: green;
+        top: 400px;
+        left: 0px;
+    }
+}
