@@ -1,0 +1,32 @@
+.flex-container{
+    display: flex;
+    height: 200px;
+    background-color: turquoise;
+}
+
+#div1,#div2,#div3,#div4{
+    background-color: tomato;
+    color: white;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+#div1{
+    /* order: 4; */
+    /* align-self: center; */
+    /* align-self: flex-end; */
+}
+#div2{
+    /* order: 2; */
+}
+#div3{
+    /* flex-grow: 4; */
+    /* flex-basis: 400px; */
+    /* flex-shrink: 10; */
+}
+
+#div4{
+    /* flex-grow: 3; */
+}
