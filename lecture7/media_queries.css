@@ -1,0 +1,17 @@
+.example{
+    background-color: yellow;
+    padding: 20px;
+}
+
+@media (min-width : 1000px){
+    .example{
+        display : none;
+    }
+}
+
+@media (max-width : 800px){
+    .example{
+        background-color: purple;
+        color: white;
+    }
+}
