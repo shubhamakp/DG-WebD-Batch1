@@ -38,3 +38,39 @@ if(value % 2 == 0){
 }else{
     console.log(value + " is Odd");
 }
+
+
+// marking
+
+var marks = 65;
+if(marks>80){
+    console.log("A grade");
+}else if(marks>61 && marks<80){
+    console.log("B grade");
+}else {
+    console.log("Fail");
+}
+
+
+// for loop
+
+for(var i=1 ; i<=10 ; i++){
+    console.log("hello " + i);
+}
+
+
+// while loop
+
+var j=1; //initialization
+while(j<=10){ //condition check
+    console.log("inside while " + j);
+    j=j+1; //update
+}
+
+// do while loop
+
+var k = 25;
+do{
+    console.log("inside do while");
+    k++;
+}while(k<=10);
