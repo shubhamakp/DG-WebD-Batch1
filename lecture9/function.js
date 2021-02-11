@@ -18,6 +18,7 @@ var mult = (a,b) => {
     return a*b;
 }
 
+var mutl = (a,b) => a*b;
 
-
+console.log(mutl(4,6));
 console.log(mult(3,4));
