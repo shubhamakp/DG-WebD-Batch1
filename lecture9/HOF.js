@@ -52,7 +52,7 @@ console.log(filtered)
 // Reduce 
 
 var reduced = arr.reduce(function(prev,curr){
-    return prev+curr;
+    return prev*curr;
 },10);
 
 console.log(reduced)

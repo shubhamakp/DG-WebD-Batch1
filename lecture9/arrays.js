@@ -1,5 +1,9 @@
 var fruits = ["orange","mango","banana","kiwi"];
 
+
+// indexOf 
+console.log("index is : " + fruits.indexOf("kiwisdcskdjb"));
+
 console.log(fruits);
 
 // Function of Arrays
