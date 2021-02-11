@@ -38,3 +38,24 @@ console.log(fruits);
 
 fruits.reverse();
 console.log(fruits)
+
+
+// String Functions
+
+var example = "web development";
+
+// slice method
+console.log(example)
+var slicedExample = example.slice(0,3);
+console.log(slicedExample);
+
+// substr 
+
+var subexample = example.substr(4,3);
+console.log(subexample)
+
+
+// toUpperCase
+
+console.log(example.toUpperCase());
+console.log("WERTY".toLowerCase())
