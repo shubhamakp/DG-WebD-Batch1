@@ -19,4 +19,3 @@ person.Address = "Delhi";
 person.Age = 56;
 console.log(person.x.food);
 
-
