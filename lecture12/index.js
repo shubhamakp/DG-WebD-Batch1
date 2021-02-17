@@ -4,9 +4,9 @@ var div = document.getElementById("div");
 
 var divtext = div.innerText;
 
-inputBox.onchange = () => {
-    inputBox.value = inputBox.value.toUpperCase();
-}
+// inputBox.onchange = () => {
+//     inputBox.value = inputBox.value.toUpperCase();
+// }
 
 div.onmouseover = () => {
     div.innerText = "thankyou";
@@ -22,4 +22,16 @@ div.onmousedown = () => {
 
 div.onmouseup = () => {
     div.style.backgroundColor = "coral";
+}
+
+// inputBox.onkeyup = () => {
+//     inputBox.value = inputBox.value.toUpperCase();
+// }
+
+// inputBox.onkeydown = () => {
+//     alert("key pressed")
+// }
+
+inputBox.onkeypress = () => {
+    alert("key pressed")
 }
