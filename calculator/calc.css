@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(247, 217, 178);
+}
+h1{
+    text-align: center;
+    color : blue;
+    margin-top: 20px;
+}
+
+.calculator{
+    width: 350px;
+    height: 500px;
+    background-color: #f0b9b9;
+    position: relative;
+    top: 35px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.result{
+    height: 100px;
+    background-color: rgb(118, 224, 108);
+}
+
+#output{
+    text-align: right;
+    margin: 10px 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.keyboard{
+    height: 420px;
+    margin: 0 auto;
+    background-color: rgb(247,247,247);
+}
+
+button, .empty{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 15px;
+    color: black;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #cbe5f7;
+}
+
+button:active{
+    font-size: 20px;
+}
+
+button:focus{
+    outline: 0;
+}
+
+.operator{
+    font-weight: 900;
+    color: rgb(226,19,19);
+}
+
+#plus{
+    background-color: salmon;
+}
+#minus{
+    background-color: powderblue;
+}
+
+#divide{
+    background-color: orange;
+}
+
+#multiply{
+    background-color: orchid;
+}
+#modulo{
+    background-color: tan;
+}
