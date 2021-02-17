@@ -15,3 +15,11 @@ div.onmouseover = () => {
 div.onmouseout = () => {
     div.innerText = divtext;
 }
+
+div.onmousedown = () => {
+    div.style.backgroundColor = "blue";
+}
+
+div.onmouseup = () => {
+    div.style.backgroundColor = "coral";
+}
